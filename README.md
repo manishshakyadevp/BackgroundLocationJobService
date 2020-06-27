@@ -1,0 +1,1 @@
+You can fetch current location with address every time when you open app, and if you start the job for background location then location will auto fetch in background even app is closed or open and you will received notification of current  location.
