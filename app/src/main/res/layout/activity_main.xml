@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/currentLocationTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:text="Wait we are fatching your current location"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/jobLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Start Job for Background Location" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="1. You can fetch current location with address every time when you open app.\n\n2. if you start the job for background location then location will auto fetch in background even app is closed or open and you will received notification for current location in every minimum 15 min."
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
